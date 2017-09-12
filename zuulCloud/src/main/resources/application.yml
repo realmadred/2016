@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: zuul-service
+server:
+  port: 8010
+#\u8DEF\u7531\u914D\u7F6E
+zuul:
+  routes:
+    api-a-url:
+      path: /api-a-url/**
+      url: http://localhost:8020/
+    api-a:
+      path: /api-a/**
+      serviceId: service-a
+    api-b:
+      path: /api-b/**
+      serviceId: service-b
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+
+

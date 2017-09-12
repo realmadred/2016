@@ -1,0 +1,46 @@
+group 'com.memcached'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext {
+        springBootVersion = '2.0.0.BUILD-SNAPSHOT'
+    }
+    repositories {
+        maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+        jcenter()
+        mavenCentral()
+        maven { url "https://repo.spring.io/snapshot" }
+        maven { url "https://repo.spring.io/milestone" }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'memcached'
+}
+
+repositories {
+    maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+    jcenter()
+    mavenCentral()
+    maven { url "https://repo.spring.io/snapshot" }
+    maven { url "https://repo.spring.io/milestone" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.googlecode.xmemcached', name: 'xmemcached', version: '2.2.0'
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
+    compile group: 'com.alibaba', name: 'druid', version: '1.0.18'
+    runtime('org.springframework.boot:spring-boot-devtools')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}

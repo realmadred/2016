@@ -1,0 +1,61 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.memcached : xmemcachedFeng-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/xmemcachedFeng</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="xmemcachedFeng-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="xmemcachedFeng_main/web/Web Gradle : xmemcachedFeng-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xmemcachedFeng_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.googlecode.xmemcached:xmemcached:2.2.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4" />
+          <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.6" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.6" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.6" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.7" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.7" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.0.BUILD-SNAPSHOT/86d89e579b6e8e80e85d7e56652f5c3e40bcb81c/spring-boot-starter-web-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.0.0.BUILD-SNAPSHOT/5b934fb2c7e99c39ca498e4d83d25ae25efa2b27/spring-boot-starter-jdbc-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/dbbd7cd309ce167ec8367de4e41c63c2c8593cc5/mysql-connector-java-5.1.38.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.18/9e4da3cbebad34c9eb3900ef9dc30cb4a60cffe0/druid-1.0.18.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.0.0.BUILD-SNAPSHOT/d30245614b608f83035c75b0ae78822485cafe0c/spring-boot-devtools-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.0.BUILD-SNAPSHOT/700b1aa209b264af6de6be92fb2ff8ae8ec50029/spring-boot-starter-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.0.0.BUILD-SNAPSHOT/81de1742b1bceb09956bdcdd5aa0600f39ec6bd5/spring-boot-starter-tomcat-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.0.BUILD-SNAPSHOT/f87e0ebca93ddc2218d8a75595721f337ff708c1/spring-web-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.0.BUILD-SNAPSHOT/856f75b3a3ba8f43fabf110f7707653ba7a1899c/spring-webmvc-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/feb10a9e22f70565c7556f327b0481dba8587bbc/tomcat-jdbc-8.5.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.0.BUILD-SNAPSHOT/41dfc99fb8b4404a82b5225a46a0f2da7ec4ca97/spring-jdbc-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.BUILD-SNAPSHOT/4fdd5e1f5207dbc2e3615fe0c6b6957e347e6839/spring-boot-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.0.BUILD-SNAPSHOT/ecff2df1961753d42a64cf80d734079490ce16c/spring-boot-autoconfigure-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.0.0.BUILD-SNAPSHOT/229f74c530544e7b85b5ef462d9af989c6ac2310/spring-boot-starter-logging-2.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.0.BUILD-SNAPSHOT/f77a78dafc06a8caa2d10952895e90bc15a2f674/spring-core-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.0.BUILD-SNAPSHOT/9e0a38c321714077a92d53c437f402eb05f0d5ab/spring-aop-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.0.BUILD-SNAPSHOT/c21b05986a0612c0a11d2767720153c58e551832/spring-beans-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.0.BUILD-SNAPSHOT/275cfa9b55fdc5468f34feeb899c0fe72036ffc8/spring-context-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.0.BUILD-SNAPSHOT/443b1c3280b69717fef865a55e6927bf8da50ed4/spring-expression-5.0.0.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/83d2d1e3362ecca504f3bf8ed1bc4cc451754d24/tomcat-juli-8.5.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.0.BUILD-SNAPSHOT/d23452a11956e96a0c599cfc4d186411d617391b/spring-tx-5.0.0.BUILD-SNAPSHOT.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/xmemcachedFeng/exploded/xmemcachedFeng-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
